@@ -14,7 +14,6 @@ import (
 
 func main() {
 	var err error
-
 	if err = loggerInternal.Initialize(); err != nil {
 		panic(err)
 	}
