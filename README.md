@@ -45,7 +45,7 @@ curl --location --request POST 'localhost:8080/matrix' \
 }'
 ```
 
-```
+```bash
 curl --location --request POST 'localhost:8080/matrix' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -62,7 +62,7 @@ curl --location --request POST 'localhost:8080/matrix' \
 }'
 ```
 
-```
+```bash
 curl --location --request POST 'localhost:8080/matrix' \
 --header 'Content-Type: application/json' \
 --data-raw '{
