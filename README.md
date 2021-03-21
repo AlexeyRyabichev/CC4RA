@@ -7,6 +7,7 @@
   - [Run](#Run)
 - [Introduction](#Introduction)
 - [Example requests](#Example-requests)
+- [P.S.](#P.S.)
 
 ## Introduction
 
@@ -23,7 +24,7 @@ Pseudo algorithm can be found [here](https://louridas.github.io/rwa/assignments/
 
 ### Run
 
-1. go run main.go
+1. go run cmd/CC4RA/main.go
 2. send this POST [requests](#Example-requests) using curl or any other way
 
 ## Example requests
@@ -77,3 +78,8 @@ curl --location --request POST 'localhost:8080/matrix' \
   ]
 }'
 ```
+
+
+# P.S.
+
+CC4RA is abbreviation for "computer complexity, 4 russians algorithm"
